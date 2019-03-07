@@ -56,5 +56,6 @@ def for_iterator(number_of_times)
   
   phrase = "Welcome to Flatiron School's Web Development Course!"
   for count in 1..number_of_times do 
+    puts authenticate_or_request_with_http_basic
 end
 
